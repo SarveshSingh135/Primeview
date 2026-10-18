@@ -1,5 +1,5 @@
 import type React from "react";
-// @ts-expect-error CSS imports are handled by the Next.js bundler.
+// @ts-expect-error CSS side-effect imports are handled by Next.js.
 import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import QueryProvider from "@/context/QueryProvider";
